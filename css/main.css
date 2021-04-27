@@ -1,3 +1,79 @@
-.nav-link {
-    background-color: red;
+/*style for desktop view (need to make it mobile responsive later)*/
+
+/* style specifies a width for container */
+.container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
 }
+
+/*style makes images responsive */
+.img {
+	max-width: 100%;
+	clear: left;
+}
+
+/* style specifies clear and top margin properties for the main element */
+main {
+	clear: left;
+	background-color: grey;
+}
+
+/*style for the nav specifies text properties*/
+nav {
+	font-family: Sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+  background-color: #ffffff69 !important;
+}
+
+/* style specifies margin and padding for the unordered list within the nav */
+nav ul {
+	width: 100%;
+}
+
+/* style for navigation list items specifies a border radius, border, margin, width, and padding */
+nav li {
+	border-top: solid #090817;
+	border-bottom: solid #090817; 
+	margin-left: 0;
+	margin-right: 0;
+	width: 50%;
+	background-color: #ffffff;
+}
+
+nav li:hover {
+  background-color: #E41C3A;
+}
+
+/* style for navigation link items specifies a text color */
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+/* footer css */
+footer {
+    padding: 25px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+    background-color: #222222;
+  }
+  
+  footer p {
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  footer ul {
+    margin-bottom: 0;
+  }
+  
+  footer ul li a {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.3);
+  }
+  
+  footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li a.active {
+    text-decoration: none;
+  }
