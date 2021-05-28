@@ -1,200 +1,159 @@
-/* reference: https://github.com/StartBootstrap/startbootstrap-new-age/blob/master/css/new-age.css */
-
-header.masthead {
-  position: relative;
-  width: 100%;
-  padding-top: 150px;
-  padding-bottom: 100px;
-  
+.section.first {
   background: url("../assets/qc-bng.jpg");
-  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-header.masthead .header-content {
-  max-width: 500px;
-  margin-bottom: 100px;
+.header-content {
+  max-width: 600px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.header-content h1 {
+  margin: 25px 0px;
+  font-size: 40px;
+}
+
+.special-text {
+  background-color: #ffffffd9;
+  border: 3px solid black;
+  border-radius: 10px;
+
+}
+
+.btn-outline {
+  color: rgb(0, 0, 0);
+  border: 3px solid black;
+}
+
+.btn-outline:hover {
+  color: rgb(255, 255, 255);
+  border-color: #000000;
+  background-color: #000000;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+.btn {
+  background-color: #ffffffd9;
+  border-radius: 300px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 20%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+@media (max-width: 1200px) {
+  .btn {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+.btn-xl {
+  padding: 15px 0px;
+}
+
+.btn-column {
   text-align: center;
 }
 
-header.masthead .header-content h1 {
-  font-size: 30px;
+.section.second {
+  background: url("../assets/qc-bng-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-header.masthead .device-container {
+.section.second h2 {
+  font-size: 50px;
+  margin-top: 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.section.second .badges .badge-link {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.section.second .badges .badge-link:last-child {
+  margin-bottom: 0;
+}
+
+.section.second .badges .badge-link img {
+  height: 60px;
+}
+
+
+.section.second .section-heading {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.section.second .section-heading h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.section.second .section-heading p {
+  margin-bottom: 0;
+}
+
+.section.second .device-container,
+.section.second .feature-item {
   max-width: 325px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
 }
 
-header.masthead .device-container .screen img {
-  border-radius: 3px;
+.section.second .device-container {
+  margin-bottom: 100px;
 }
 
 @media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 775px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  header.masthead .header-content {
+  .section.second .device-container {
     margin-bottom: 0;
-    text-align: center;
-  }
-  header.masthead .header-content h1 {
-    font-size: 50px;
-  }
-  header.masthead .device-container {
-    max-width: 325px;
   }
 }
 
-section.students {
-    position: relative;
-    padding: 150px 0;
-    background-color: white;
-  }
-  
-  section.students h2 {
-    font-size: 50px;
-    margin-top: 0;
-  }
-  
-  section.students .badges .badge-link {
-    display: block;
-    margin-bottom: 25px;
-  }
-  
-  section.students .badges .badge-link:last-child {
-    margin-bottom: 0;
-  }
-  
-  section.students .badges .badge-link img {
-    height: 60px;
-  }
-  
-  @media (min-width: 768px) {
-    section.students .badges .badge-link {
-      display: inline-block;
-      margin-bottom: 0;
-    }
-  }
-  
-  @media (min-width: 768px) {
-    section.students h2 {
-      font-size: 70px;
-    }
-  }
+.section.second .feature-item {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
 
-  section.features {
-    background: url("../assets/qc-bng-2.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+.section.second .feature-item h3 {
+  font-size: 30px;
+}
 
-  section.features .device-container,
-  section.features .feature-item {
-    max-width: 325px;
-    margin: 0 auto;
-  }
-  
-  section.features .device-container {
-    margin-bottom: 100px;
-  }
-  
-  @media (min-width: 992px) {
-    section.features .device-container {
-      margin-bottom: 0;
-    }
-  }
+.section.second .feature-item i {
+  font-size: 80px;
+  display: block;
+  margin-bottom: 15px;
+  background: linear-gradient(to left, #7b4397, #dc2430);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  .btn-outline {
-    color: rgb(0, 0, 0);
-    border: 3px solid black;
-  }
-  
-  .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
-    color: rgb(0, 0, 0);
-    border-color: #000000;
-    background-color: #E41C3A;
-  }
-  
-  .btn {
-    background-color: #ffffffd9;
-    border-radius: 300px;
-    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-weight: bold;
-  }
-  
-  .btn-xl {
-    font-size: 11px;
-    padding: 15px 45px;
-  }
+.section.third {
+  background-color: green;
+}
 
-  section.features .section-heading {
-    padding-top: 150px;
-    margin-bottom: 100px;
-  }
-  
-  section.features .section-heading h2 {
-    font-size: 50px;
-    margin-top: 0;
-  }
-  
-  section.features .section-heading p {
-    margin-bottom: 0;
-  }
-  
-  section.features .device-container,
-  section.features .feature-item {
-    max-width: 325px;
-    margin: 0 auto;
-  }
-  
-  section.features .device-container {
-    margin-bottom: 100px;
-  }
-  
-  @media (min-width: 992px) {
-    section.features .device-container {
-      margin-bottom: 0;
-    }
-  }
-  
-  section.features .feature-item {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-  }
-  
-  section.features .feature-item h3 {
-    font-size: 30px;
-  }
-  
-  section.features .feature-item i {
-    font-size: 80px;
-    display: block;
-    margin-bottom: 15px;
-    background: linear-gradient(to left, #7b4397, #dc2430);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  section.features .container-fluid {
-      padding-bottom: 100px;
-  }
+.section.fourth {
+  background-color: pink;
+}
 
-  .special-text {
-    background-color: #ffffffd9;
-    border: 3px solid black;
-    border-radius: 10px;
-  }
+.section.footer.fp-auto-height {
+  background-color: black;
+  color: white;
+
+  padding-bottom: 11px;
+}
