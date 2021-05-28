@@ -1,6 +1,7 @@
 // Settings for fullPage js
 var myFullpage = new fullpage('#fullpage', {
     scrollingSpeed: 1000,
+    responsive: 900,
     navigation: true,
     navigationPosition: 'left',
     navigationTooltips: ['', 'About'],
