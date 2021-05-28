@@ -10,7 +10,7 @@ var myFullpage = new fullpage('#fullpage', {
     dragAndMove: true,
     bigSectionsDestination:top,
     verticalCentered: true,
-    anchors:['first-section', 'second-section'],
+    anchors:['first-section', 'second-section', 'footer'],
 });
 
 // Snippet for navbar active using data-anchors

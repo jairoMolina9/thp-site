@@ -12,7 +12,6 @@
 }
 
 .header-content h1 {
-  margin: 25px 0px;
   font-size: 40px;
 }
 
@@ -141,6 +140,12 @@
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1200px) {
+  .section-heading {
+    padding-top: 50px;
+  }
 }
 
 .section.third {
