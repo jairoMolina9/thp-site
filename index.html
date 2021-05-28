@@ -1,49 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <!-- BOOTSTRAP CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-<!-- MAIN CSS -->
-<!-- ADDED A NEW COMMENT -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!-- ICONS CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+  crossorigin="anonymous" />
+
+<!-- fonts -->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@200;400&display=swap" rel="stylesheet">
+
+<!-- Full Page css,js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.css" />
+<script type="text/javascript"
+  src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.extensions.min.js"></script>
+
+<!-- Bulma css -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+
+<!-- Typed js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+
+<!-- Font Awesome css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- CUSTOM CSS -->
 <link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/home.css">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>THP Website</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THP Website</title>
 </head>
+
 <body>
-<!-- nav bar code-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">FAQ</a>
-        </li>
-      </ul>
+  <div id="navbar">
+    <a class = "nav__item" href="index.html">FAQ</a>
+    <a class = "nav__item" href="index.html">Contact</a>
+    <a class = "nav__item" href="#second-section">About</a>
+    <a class = "nav__item active_custom" href="#first-section">Home</a>
+  </div>
+  <div id="fullpage">
+    <div class="section first" data-anchor="first-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="header-content my-auto mx-auto special-text">
+              <h1 >THP offers scholarships and academic support for highly motivated and creative
+                prospective
+                students!</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="btn-column my-auto mx-auto">
+              <a href="#second-section" class="btn btn-outline btn-xl">Learn More</a>
+              <a href="about.html" class="btn btn-outline btn-xl">Apply Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </nav>
-  <h1> THIS IS home PAGE</h1>
-<!-- nav bar code-->
+    <div class="section second" data-anchor="second-section">
+      <div class="container">
+        <div class="section-heading text-center">
+          <h2 class="special-text">Enhancing the Educational Experience</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 my-auto">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item special-text">
+                    <i class="fas fa-desktop text-primary"></i>
+                    <h3>Priority Registration</h3>
+                    <p>Register to competitive classes weeks before regular registration!</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item special-text">
+                    <i class="far fa-money-bill-alt text-primary"></i>
+                    <h3>Peer Support/Mentor</h3>
+                    <p>Join a network of awesome students willing to help you transition smoothly!</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="feature-item special-text">
+                    <i class="fas fa-user-friends text-primary"></i>
+                    <h3>Monetary Award</h3>
+                    <p>THP provides scholarships at three levels: $1,000, half tuition, and full tuition!</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="feature-item special-text">
+                    <i class="far fa-calendar-check text-primary"></i>
+                    <h3>Exclusive Events</h3>
+                    <p>Be invited to special events with helpful speakers and important information!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="section third">
+      <div class="slide" data-anchor="slide1">Two 1</div>
+      <div class="slide" data-anchor="slide2">Two 2</div>
+    </div>
+    <div class="section fourth">
+      Contact me
+    </div> -->
+    <div class="section footer fp-auto-height">
+      <div class="container">
+        <div class = "row">
+          <div class = "col-6 my-auto">
+            <p>&copy; QC THP 2021. All Rights Reserved.<br>Designed & Developed by <a href="https://www.linkedin.com/in/andres-molina-a0574714b/">Jairo Molina</a> ❤️</p>
+          </div>
+          <div class = "col-6 left-footer">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="http://transfer.qc.cuny.edu/explore-queens/honors/">Official Site</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.qc.cuny.edu/Pages/home.aspx">Queens College</a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://www.cuny.edu/">CUNY</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+<!-- main section-->
 
 <!-- JQUERY -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- BOOTSTRAP JS + POPPERS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
+</script>
 <script src="js/main.js"></script>
-</body>
+
 </html>
