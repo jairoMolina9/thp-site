@@ -13,9 +13,3 @@ var myFullpage = new fullpage('#fullpage', {
     verticalCentered: true,
     anchors:['first-section', 'second-section', 'footer'],
 });
-
-// Snippet for navbar active using data-anchors
-$('.nav__item').click(function() {
-    $("#navbar").find("a.active_custom").removeClass('active_custom');
-    $(this).addClass('active_custom');
-});
