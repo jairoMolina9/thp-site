@@ -9,6 +9,7 @@
   max-width: 600px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  
 }
 
 .header-content h1 {
@@ -160,4 +161,11 @@
   color: white;
 
   padding-bottom: 11px;
+}
+
+@media (max-width: 990px) {
+  .header-content.first{
+      box-shadow: none;
+      margin-top: 150px !important;
+  }
 }
